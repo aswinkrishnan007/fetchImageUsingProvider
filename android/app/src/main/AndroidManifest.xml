@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.fetch_image_with_provider">
+     <uses-permission android:name="android.permission.INTERNET"/> 
    <application
         android:label="fetch_image_with_provider"
         android:name="${applicationName}"
